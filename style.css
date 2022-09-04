@@ -1,0 +1,92 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: ghostwhite;
+}
+
+header{
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+    height: 30%;
+    width: 100%;
+}
+
+.logo{
+    background-color: #fff;
+    width: 100px;
+    height: 40px;
+}
+
+.loguitos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.usuario{
+    height: 70%;
+    display: flex;
+    background-color: ghostwhite;
+}
+
+.fotoPerfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 0px 50px 0px 50px;
+}
+
+.info div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: small;
+    background-color: ghostwhite;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.posteos{
+    background-color: ghostwhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    width: 100%;
+}
+
+img{
+    width: 230px;
+    height: 230px;
+    background-color: ghostwhite;
+}
